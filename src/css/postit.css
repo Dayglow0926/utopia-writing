@@ -1,0 +1,14 @@
+.postit {
+  width: 100px;
+  background-color: #fff9b7;
+  box-shadow: -1px 25px 30px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 55px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.postit:nth-child(odd) {
+  transform: rotate(20deg);
+}
