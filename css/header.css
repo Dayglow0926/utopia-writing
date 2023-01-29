@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+header div {
+  width: 33%;
+}
+
+.header-content__link {
+  display: flex;
+  align-items: flex-end;
+}
+.header-content__link-input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 2px solid white;
+  margin: 0px 5px;
+  outline: none;
+  color: white;
+}
+
+.header-content__clock {
+  display: flex;
+  justify-content: center;
+}
+
+.header-content__weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.header-content__weather-location {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px;
+}

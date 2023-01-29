@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/mokoko-molru.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum</title>
+  </head>
+  <body>
+    <header class="header-content">
+      <div class="header-content__link">
+        Link
+        <form>
+          <input
+            class="header-content__link-input"
+            type="text"
+            autocomplete="off"
+            spellcheck="false"
+          />
+        </form>
+      </div>
+      <div class="header-content__clock common-clock">
+        <span class="clock-hhmm" style="display: none"></span>
+      </div>
+      <div class="header-content__weather">
+        <div class="header-content__weather-content">
+          <img src="" onerror="this.src='img/mokoko-molru.png'" />
+          <span></span>
+        </div>
+        <div class="header-content__weather-location"><span></span></div>
+      </div>
+    </header>
+    <main>
+      <div class="main-side-content left">
+        <span>Calendar</span>
+        <div class="main-side-content__calendar">
+          <div class="main-side-content__calendar-year-month">
+            <a href="javascript:void(0)"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </a>
+            <span></span>
+            <a href="javascript:void(0)"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="main-side-content__calendar-date">
+            <div class="main-side-content__calendar-day">
+              <div class="day">MON</div>
+              <div class="day">TUE</div>
+              <div class="day">WED</div>
+              <div class="day">THU</div>
+              <div class="day">FRI</div>
+              <div class="day">SAT</div>
+              <div class="day">SUN</div>
+            </div>
+            <div class="main-side-content__calendar-dates"></div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="main-content__clock common-clock">
+          <span class="clock-hhmm"></span><span class="clock-ss"></span>
+        </div>
+        <div class="main-content__intro">
+          <span class="main-content__intro-greet">Hello What your name?</span>
+          <form class="login-form">
+            <input type="text" autocomplete="off" spellcheck="false" />
+          </form>
+        </div>
+      </div>
+      <div class="main-side-content right">
+        <span>To do List</span>
+        <div>
+          <ul class="todo-list"></ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-content__quote">
+          <span class="footer-content__quote-text"></span>
+          <span class="footer-content__quote-author"></span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/link.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/greetings.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/calendar.js"></script>
+  </body>
+</html>
