@@ -1,15 +1,9 @@
 const api_key = "29b79234da2bc7ebdf49047690b73c76";
-const weather_img = document.querySelector(
-  ".header-content__weather-content img"
-);
+const weather_img = document.querySelector(".weather-content img");
 
-const weather_temp = document.querySelector(
-  ".header-content__weather-content span"
-);
+const weather_temp = document.querySelector(".weather-content span");
 
-const weather_location = document.querySelector(
-  ".header-content__weather-location span"
-);
+const weather_location = document.querySelector(".weather-location span");
 
 var loc = document.getElementById("myLocation");
 
