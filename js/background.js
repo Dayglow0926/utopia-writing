@@ -1,4 +1,8 @@
-const backgroundImgList = ["background-img1.jpg", "background-img2.jpg"];
+const backgroundImgList = [
+  "background-img1.jpg",
+  "background-img2.jpg",
+  "background-img3.jpg",
+];
 
 const body = document.querySelector("body");
 
